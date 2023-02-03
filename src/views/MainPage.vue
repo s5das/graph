@@ -16,7 +16,7 @@
   <div class="scroll-show">
     <el-carousel indicator-position="outside" height="60vh">
       <el-carousel-item v-for="item in imgs" :key="item">
-        <img :src="item" style="width: 100vw; height: 55vh" />
+        <img :src="item" style="width: 100vw; height: 55vh;" />
       </el-carousel-item>
     </el-carousel>
   </div>

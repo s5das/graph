@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
     "format": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\"",
-    "style": "stylelint \"src/**/*.(vue|scss|css)\" --fix",
+    "lint:style": "stylelint \"src/**/*.(vue|scss|css)\" --fix",
     "prepare": "husky install"
   },
   "dependencies": {
