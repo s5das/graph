@@ -46,7 +46,7 @@
               </template>
 
               <template #dot>
-                <div style="position: relative;">
+                <div style="position: relative">
                   <img
                     :src="item.picurl"
                     style="
@@ -55,7 +55,7 @@
                       width: 40px;
                       height: 40px;
                       border-radius: 50%;
-"
+                    "
                   />
                 </div>
               </template>
@@ -65,7 +65,7 @@
                 <h3>
                   {{ item.title }}
                 </h3>
-                <div style="margin-top: 2vh;">
+                <div style="margin-top: 2vh">
                   {{ item.describe }}
                 </div>
               </div>

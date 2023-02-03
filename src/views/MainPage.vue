@@ -16,7 +16,7 @@
   <div class="scroll-show">
     <el-carousel indicator-position="outside" height="60vh">
       <el-carousel-item v-for="item in imgs" :key="item">
-        <img :src="item" style="width: 100vw; height: 55vh;" />
+        <img :src="item" style="width: 100vw; height: 55vh" />
       </el-carousel-item>
     </el-carousel>
   </div>
@@ -35,11 +35,7 @@
 import { Search } from '@element-plus/icons-vue'
 import { Ref } from 'vue'
 import { useRouter } from 'vue-router'
-
-interface GraphType {
-  title: string
-  picurl: string
-}
+import { GraphType } from '../types'
 
 const router = useRouter()
 
