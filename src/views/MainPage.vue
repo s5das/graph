@@ -16,7 +16,7 @@
   <div class="scroll-show">
     <el-carousel indicator-position="outside" height="60vh">
       <el-carousel-item v-for="item in imgs" :key="item">
-        <img :src="item" style="width: 100vw; height: 55vh;" />
+        <img :src="item" style="width: 100vw; height: 55vh" />
       </el-carousel-item>
     </el-carousel>
   </div>
@@ -56,7 +56,7 @@ let items: GraphType[] = [
 ]
 const Goto = (index: number) => {
   switch (index) {
-    case 1:
+    case 0:
       router.push({
         path: '/graph/1'
       })
